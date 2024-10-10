@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  nuredu.api:
+    container_name: lde.nuredu.api
+    build:
+      context: ./nuredu-api
+      dockerfile: Dockerfile
+    environment:
+      - PORT=${PORT}
+    ports:
+        - '5001:5001'
+    depends_on:
+      - postgres
+  pgadmin4:
+    image: dpage/pgadmin4
+    container_name: lde.pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@domain.com
+      PGADMIN_DEFAULT_PASSWORD: postgres
+    depends_on:
+      - postgres
+    ports:
+      - 8001:80
+  postgres:
+    image: postgres
+    container_name: lde.postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5433:5432
+  redis:
+    image: redis
+    container_name: lde.redis
+    ports:
+      - 6380:6379
+networks:
+  default:
+    driver: bridge
+    internal: false
+    attachable: true
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.0.0/24
+          gateway: 192.168.0.4
