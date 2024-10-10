@@ -8,16 +8,14 @@ import {
   Delete,
 } from "@nestjs/common";
 import { CoursesService } from "./courses.service";
-import { CreateCourseDto } from "./dto/create-course.dto";
-import { UpdateCourseDto } from "./dto/update-course.dto";
 
 @Controller("courses")
 export class CoursesController {
   constructor(private readonly coursesService: CoursesService) {}
 
   @Post()
-  create(@Body() createCourseDto: CreateCourseDto) {
-    return this.coursesService.create(createCourseDto);
+  create() {
+    return this.coursesService.create();
   }
 
   @Get()
@@ -31,8 +29,8 @@ export class CoursesController {
   }
 
   @Patch(":id")
-  update(@Param("id") id: string, @Body() updateCourseDto: UpdateCourseDto) {
-    return this.coursesService.update(+id, updateCourseDto);
+  update(@Param("id") id: string) {
+    return this.coursesService.update(+id);
   }
 
   @Delete(":id")
