@@ -1,0 +1,453 @@
+{
+  "sidebar": {
+    "home": "Головна сторінка",
+    "teachers": "Вчителі",
+    "students": "Студенти",
+    "classrooms": "Групи",
+    "curriculums": "Навчальні програми",
+    "managers": "Користувачі",
+    "managerVerifications": "Перевірка користувачів",
+    "schools": "Факультети",
+    "changeLanguage": "Змінити мову",
+    "profile": "Профіль",
+    "logout": "Вийти"
+  },
+  "change_language_modal": {
+    "title": "Виберіть мову",
+    "languages": {
+      "english": "Англійська",
+      "ukrainian": "Українська"
+    },
+    "confirm": "Підтвердити"
+  },
+  "admin_schools_page": {
+    "schoolsList": {
+      "title": "Список факультетівіл",
+      "searchPlaceholder": "Пошук факультету",
+      "noSchools": "факультетівіл не знайдено",
+      "createSchoolButton": "Створити факультет"
+    },
+    "schoolInfo": {
+      "title": "Інформація про факультет",
+      "stats": {
+        "students": "Студенти",
+        "teachers": "Вчителі",
+        "classrooms": "Групи",
+        "schoolAdmins": "Адміністратори факультету"
+      },
+      "segmentedControl": {
+        "students": "Студенти",
+        "teachers": "Вчителі",
+        "classrooms": "Групи",
+        "schoolAdmins": "Адміністратори факультету"
+      },
+      "createSchoolManagerButton": "Створити користувача факультету"
+    }
+  },
+  "stats": {
+    "totalCount": "Загальна кількість"
+  },
+  "studentsTable": {
+    "name": "Ім'я",
+    "accountId": "ID облікового запису",
+    "noData": "Студентив у вибраній факультеті немає"
+  },
+  "teachersTable": {
+    "name": "Ім'я",
+    "email": "Електронна пошта",
+    "noData": "У вибраній факультеті немає вчителів",
+    "action": "Дія"
+  },
+  "changePasswordModal": {
+    "changePasswordTitle": "Змінити пароль",
+    "passInputLabel": "Пароль",
+    "repeatPassInputLabel": "Повторіть пароль",
+    "passPlaceholder": "Введіть пароль",
+    "repeatPassPlaceholder": "Повторіть пароль",
+    "enterPassError": "Введіть пароль!",
+    "passDifferentError": "Паролі не співпадають!",
+    "passIsWeak": "Пароль слабкий, виконуйте всі правила!",
+    "serverError": "Щось пішло не так, спробуйте пізніше!",
+    "successMessage": "Успішно!",
+    "confirmButton": "Підтвердити зміну"
+  },
+  "passwordChecker": {
+    "IncludesADigit": "Містить цифру",
+    "HasALowercaseLetter": "Містить малу літеру",
+    "HasAnUppercaseLetter": "Містить велику літеру",
+    "ContainsASpecialCharacter": "Містить спеціальний символ",
+    "AtLeast8CharactersLong": "Мінімум 8 символів"
+  },
+  "classroomsTable": {
+    "title": "Назва",
+    "code": "Код",
+    "noData": "Доступних Груп немає"
+  },
+  "schoolAdminsTable": {
+    "name": "Ім'я",
+    "email": "Електронна пошта",
+    "role": "Роль",
+    "noData": "Немає адміністраторів факультету"
+  },
+  "adminStudentsPage": {
+    "studentsListTitle": "Список Студентив",
+    "noStudents": "Студентив не знайдено",
+    "loading": "Завантаження..."
+  },
+  "adminStudentsTable": {
+    "confirmAction": "Підтвердити дію",
+    "warningTitle": "Попередження",
+    "deleteWarning": "Після видалення облікового запису всі пов'язані дані буде видалено",
+    "selectedAccountsToDelete": "Ви вибрали ці облікові записи для видалення",
+    "cancelButton": "Скасувати",
+    "deleteButton": "Видалити",
+    "searchPlaceholder": "Пошук за ім'ям або електронною поштою",
+    "deleteSelectedRowsButton": "Видалити {{count}} вибраних рядків",
+    "thID": "ID",
+    "thName": "Ім'я",
+    "thSchoolName": "Назва факультету",
+    "thClassroomID": "ID Групи",
+    "thSchoolID": "ID факультету",
+    "thAccountID": "ID облікового запису"
+  },
+  "managersPage": {
+    "managersListTitle": "Список користувачів",
+    "noManagersFound": "користувачів не знайдено",
+    "table": {
+      "confirmAction": "Підтвердити дію",
+      "warningTitle": "Попередження",
+      "deleteAccountWarning": "При видаленні облікового запису всі пов'язані дані також будуть видалені.",
+      "selectedAccounts": "Ви вибрали ці облікові записи для видалення:",
+      "cancel": "Скасувати",
+      "delete": "Видалити",
+      "searchPlaceholder": "Пошук за ім’ям та електронною поштою",
+      "deleteSelected": "Видалити {{count}} обрані рядки(ів)",
+      "id": "ID",
+      "name": "Ім’я",
+      "email": "Електронна пошта",
+      "role": "Роль",
+      "schoolId": "ID факультету",
+      "verificationStatus": "Статус верифікації"
+    }
+  },
+  "managerVerificationsPage": {
+    "title": "Список верифікацій користувачів",
+    "noManagersFound": "користувачів не знайдено",
+    "table": {
+      "verified": "Верифіковано",
+      "notVerified": "Не верифіковано",
+      "confirmAction": "Підтвердити дію",
+      "warningTitle": "Попередження",
+      "warningText": "Обережно видаляйте дані верифікації, оскільки авторизація облікового запису пов'язана з ними. Якщо ви видалите обліковий запис користувача, дані верифікації також можуть бути видалені.",
+      "selectedAccountsToDelete": "Ви вибрали ці облікові записи для видалення",
+      "cancelButton": "Скасувати",
+      "deleteButton": "Видалити",
+      "searchPlaceholder": "Пошук за електронною поштою",
+      "deleteSelectedRows": "Видалити {{count}} обрані рядки(ів)",
+      "idColumn": "ID",
+      "emailColumn": "Електронна пошта",
+      "verificationCodeColumn": "Код верифікації",
+      "updatedAtColumn": "Оновлено",
+      "limitCountColumn": "Ліміт кількості",
+      "isVerifiedColumn": "Верифіковано",
+      "noManagersFound": "користувачів не знайдено",
+      "managersCount": "{managersVerifications.length} Користувачі",
+      "managersVerificationsListTitle": "Список верифікацій користувачів"
+    }
+  },
+  "createSchoolModal": {
+    "title": "Створити факультет",
+    "errorTitle": "Помилка",
+    "namePlaceholder": "Введіть ім’я",
+    "nameLabel": "Ім’я",
+    "createButton": "Створити факультет",
+    "countryLabel": "Країна",
+    "countryPlaceholder": "Введіть або оберіть країну",
+    "cityLabel": "Місто",
+    "cityPlaceholder": "Введіть назву міста"
+  },
+  "inviteSchoolManagerModal": {
+    "title": "Створити обліковий запис користувача факультету",
+    "errorTitle": "Помилка",
+    "managerTypeLabel": "Оберіть тип користувача",
+    "managerTypeDesc": "Оберіть тип облікового запису користувача",
+    "teacherTypeLabel": "Вчитель",
+    "schoolAdminTypeLabel": "Адміністратор факультету",
+    "fullNamePlaceholder": "Введіть повне ім’я",
+    "fullNameLabel": "Повне ім’я",
+    "passwordSwitchLabel": "Встановити пароль",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введіть пароль",
+    "emailPlaceholder": "Введіть електронну пошту",
+    "emailLabel": "Електронна пошта",
+    "createManagerButton": "Створити користувача",
+    "attention": "Увага",
+    "authorizationInfo": "Інформацію для авторизації на платформі буде надіслано на вказану електронну пошту.",
+    "enterDataError": "Введіть дані",
+    "generatePassButton": "Згенерувати пароль"
+  },
+  "lessonPage": {
+    "title": "Короткостроковий план уроку",
+    "editLesson": "Редагувати урок",
+    "lessonVideos": "Відеоуроки",
+    "watchVideoButton": "Переглянути {{text}} відеоурок",
+    "lessonVideoNotAdded": "Відеоуроки не додано",
+    "lessonPresentations": "Презентації уроку",
+    "downloadPresentationButton": "Завантажити {{text}} презентацію",
+    "lessonPresentationNotAdded": "Презентації не додано",
+    "documentFormatLabel": "Урок у форматі документа",
+    "documentLinkNotAdded": "Посилання на документ не завантажено",
+    "topic": "Тема уроку",
+    "type": "Тип уроку",
+    "objectives": "Цілі уроку",
+    "equipment": "Обладнання для уроку",
+    "priorKnowledge": "Попередні знання",
+    "duringClasses": "Під час уроку",
+    "scheduledLessonSteps": "Заплановані етапи уроку",
+    "plannedActivity": "Запланована діяльність",
+    "begin": "Початок уроку",
+    "beginTime": "0-10 хвилин",
+    "middle": "Середина уроку",
+    "middleTime": "10-30 хвилин",
+    "end": "Закінчення уроку",
+    "endTime": "30-40 хвилин",
+    "additionalResources": "Додаткові ресурси"
+  },
+  "curriculumsPage": {
+    "goBackButton": "Повернутися",
+    "basicLevel": "Базовий рівень",
+    "averageLevel": "Середній рівень",
+    "advancedLevel": "Просунутий рівень",
+    "difficultLevel": "Складний рівень",
+    "grade": "курс",
+    "chapter": "глава",
+    "topic": "тема",
+    "topics": "теми",
+    "lessonButtonClickText": "Натисніть на картку, щоб переглянути урок",
+    "changeLanguageButton": "Змінити мову",
+    "addNewLessonButton": "Додати новий урок",
+    "deleteMode": "Режим видалення",
+    "deleteSelected": "Видалити {{count}} вибраних рядків",
+    "noTopics": "У цій главі немає доданих тем",
+    "selectToView": "Виберіть курс для перегляду глав",
+    "locked_title": "Недоступно",
+    "locked_description": "На жаль, ця глава наразі недоступна для доступу. Ми цінуємо ваш інтерес та розуміння."
+  },
+  "grades": [
+    {
+      "grade": 1,
+      "chapters": [
+        { "queue": 1, "title": "Абетка цифрової грамотності" },
+        { "queue": 2, "title": "CodiPlay" },
+        { "queue": 3, "title": "Інженерне мислення" }
+      ]
+    },
+    {
+      "grade": 2,
+      "chapters": [
+        { "queue": 1, "title": "Абетка цифрової грамотності" },
+        { "queue": 2, "title": "CodiPlay" },
+        { "queue": 3, "title": "Інженерне мислення" },
+        { "queue": 4, "title": "Блокове програмування (Scratch)" }
+      ]
+    },
+    {
+      "grade": 3,
+      "chapters": [
+        { "queue": 1, "title": "Алгоритми в нашому житті" },
+        { "queue": 2, "title": "Програмування з CodiPlay" },
+        { "queue": 3, "title": "Інженерне мислення" },
+        { "queue": 4, "title": "Блокове програмування (Scratch), віртуальний Arduino" }
+      ]
+    },
+    {
+      "grade": 4,
+      "chapters": [
+        { "queue": 1, "title": "Симулятор мобільних додатків для навчання алгоритмів" },
+        { "queue": 2, "title": "Алгоритм для мобільної гри" },
+        { "queue": 3, "title": "Інженерне мислення" },
+        { "queue": 4, "title": "Робототехніка у віртуальному світі" }
+      ]
+    },
+    {
+      "grade": 5,
+      "chapters": [
+        { "queue": 1, "title": "Ігри з CodiPlay" },
+        { "queue": 2, "title": "CodiKit — це весело" },
+        { "queue": 3, "title": "Інженерне мислення" },
+        { "queue": 4, "title": "Python з CodiPlay" }
+      ]
+    },
+    {
+      "grade": 6,
+      "chapters": [
+        { "queue": 1, "title": "Алгоритми ігор CodiPlay" },
+        { "queue": 2, "title": "Arduino з CodiPlay" },
+        { "queue": 3, "title": "Інженерне мислення" },
+        { "queue": 4, "title": "Блокове програмування (Scratch). Вступ до схем Arduino UNO" }
+      ]
+    },
+    {
+      "grade": 7,
+      "chapters": [
+        { "queue": 1, "title": "Робототехніка" },
+        { "queue": 2, "title": "Я — інженер-робототехнік" },
+        { "queue": 3, "title": "Більше робототехніки" },
+        { "queue": 4, "title": "Python" }
+      ]
+    },
+    {
+      "grade": 8,
+      "chapters": [
+        { "queue": 1, "title": "Робототехніка" },
+        { "queue": 2, "title": "Я — інженер-робототехнік" },
+        { "queue": 3, "title": "Робототехніка у нашому житті" },
+        { "queue": 4, "title": "Python з CodiPlay" }
+      ]
+    },
+    {
+      "grade": 9,
+      "chapters": [
+        { "queue": 1, "title": "Arduino UNO" },
+        { "queue": 2, "title": "Ще більше Arduino UNO" },
+        { "queue": 3, "title": "Проєкти з CodiPlay" },
+        { "queue": 4, "title": "Python" }
+      ]
+    },
+    {
+      "grade": 10,
+      "chapters": [
+        { "queue": 1, "title": "Введення/виведення даних" },
+        { "queue": 2, "title": "Умовний оператор" },
+        { "queue": 3, "title": "Типи даних" },
+        { "queue": 4, "title": "Цикли for і while" },
+        { "queue": 5, "title": "Тип даних String" },
+        { "queue": 6, "title": "Списки" },
+        { "queue": 7, "title": "Функції" }
+      ]
+    },
+    {
+      "grade": 11,
+      "chapters": [
+        { "queue": 1, "title": "Вступ до Python" },
+        { "queue": 2, "title": "Аналіз даних" },
+        { "queue": 3, "title": "Веб-розробка" },
+        { "queue": 4, "title": "Машинне навчання у CodiPlay" },
+        { "queue": 5, "title": "Наукові обчислення" },
+        { "queue": 6, "title": "Скрипти та автоматизація" },
+        { "queue": 7, "title": "Проєктна робота" }
+      ]
+    }
+  ],
+  "lessonTypes": [
+    "Практичний урок — проводиться у формі практичної або лабораторної роботи.",
+    "Навчальний урок — проводиться з використанням технології розвитку критичного мислення."
+  ],
+  "loginPage": {
+    "welcomeBack": "Ласкаво просимо назад до Nuredu!",
+    "error": "Помилка",
+    "emailLabel": "Електронна пошта",
+    "emailPlaceholder": "hello@email.com",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Ваш пароль",
+    "signIn": "Увійти"
+  },
+  "classroomsPage": {
+    "createdAt": "Створено",
+    "notFound": "Групи не знайдено",
+    "classroomsListTitle": "Список Груп",
+    "searchClassroomPlaceholder": "Пошук Групи за назвою або кодом",
+    "createClassroomButton": "Створити групу",
+    "classroomInfoTitle": "Інформація про групу",
+    "editButton": "Редагувати",
+    "deleteButton": "Видалити",
+    "studentsText": "Студенти",
+    "codeCopiedTooltip": "Код скопійовано ✅",
+    "studentsInClassroomTitle": "Студенти у групі",
+    "generateAccountsButton": "Створити облікові записи для Студентив",
+    "deleteConfirmModalTitle": "Ви впевнені, що хочете видалити цю групу?",
+    "deleteConfirmModalAttention": "Увага",
+    "deleteConfirmModalDescription": "При видаленні Групи всі Студенти, які є частиною цього Групи, також будуть видалені.",
+    "deleteConfirmModalOk": "Так, видалити",
+    "deleteConfirmModalCancel": "Ні, повернутися"
+  },
+  "teachersStudentsTable": {
+    "confirmAction": "Підтвердити дію",
+    "warningTitle": "Попередження",
+    "deleteAccountWarning": "Після видалення облікового запису всі пов'язані дані буде видалено.",
+    "selectedAccountsToDelete": "Ви вибрали ці облікові записи для видалення:",
+    "cancelButton": "Скасувати",
+    "deleteButton": "Видалити",
+    "searchPlaceholder": "Пошук за ім'ям або електронною поштою",
+    "nameHeader": "Ім'я",
+    "accountIdHeader": "ID облікового запису",
+    "noStudentsFoundMessage": "Студентив із іменем або ID \"{{search}}\" не знайдено",
+    "noStudentsInClassroomMessage": "У цій групі немає Студентив",
+    "studentNotFound": "Студентив із ім'ям або ID '{{name}}' не знайдено"
+  },
+  "createClassroomModal": {
+    "title": "Створити групу",
+    "errorTitle": "Помилка",
+    "classroomTitlePlaceholder": "Введіть назву Групи",
+    "classroomTitleLabel": "Назва Групи",
+    "selectTeacherLabel": "Виберіть вчителя",
+    "assignTeacherPlaceholder": "Призначте вчителя Групи",
+    "createClassroomButton": "Створити групу"
+  },
+  "schoolAdminTeachersPage": {
+    "noTeachersAdded": "Вчителів не додано",
+    "teachersListTitle": "Список вчителів",
+    "searchPlaceholder": "Пошук вчителя",
+    "inviteTeacherButton": "Запросити вчителя",
+    "teacherInfoTitle": "Інформація про вчителя",
+    "resendInviteButton": "Повторно надіслати запрошення",
+    "activeBadge": "Активовано",
+    "inactiveBadge": "Не активовано",
+    "enrolledClassrooms": "Групи, у яких викладає",
+    "classroomsOfTeacher": "Групи вибраного вчителя",
+    "classroomsTitle": "Групи",
+    "tableID": "ID",
+    "tableName": "Ім'я"
+  },
+  "inviteTeacherModal": {
+    "createTeacherAccount": "Створити обліковий запис вчителя",
+    "errorTitle": "Помилка",
+    "enterName": "Введіть ім'я",
+    "nameLabel": "Ім'я",
+    "enterSurname": "Введіть прізвище",
+    "surnameLabel": "Прізвище",
+    "enterEmail": "Введіть електронну пошту",
+    "emailLabel": "Електронна пошта",
+    "sendInviteButton": "Надіслати запрошення",
+    "attention": "Увага",
+    "informationText": "Інформація для авторизації на платформі буде надіслана на вказану електронну пошту."
+  },
+  "studentsPage": {
+    "studentsListTitle": "Список Студентив",
+    "searchPlaceholder": "Пошук учня",
+    "noStudentsFound": "Студентив не знайдено",
+    "studentInfoTitle": "Інформація про учня",
+    "classroomTitle": "Група",
+    "classroomIdPrefix": "ID",
+    "viewProgressButton": "Переглянути прогрес",
+    "deleteFromClassroomButton": "Видалити з Групи"
+  },
+  "importStudentsDrawer": {
+    "successMsg": "Облікові записи Студентив успішно створені!",
+    "errorMsg": "Щось пішло не так, спробуйте пізніше!",
+    "title": "Імпорт списку Студентив",
+    "downloadTitle": "Тепер ви можете завантажити файл Excel зі створеними ID облікових записів і паролями",
+    "buttonTitle": "Завантажити список облікових записів",
+    "fileInputLabel": "Завантаження файлу Excel",
+    "fileInputDesc": "Завантажте таблицю зі списком Студентив",
+    "fileInputPlaceholder": "Натисніть, щоб завантажити файл Excel",
+    "clearAllButtonTitle": "Очистити все",
+    "createButtonTitle": "Створити облікові записи Студентив",
+    "studentNameInputLabel": "Ім'я учня",
+    "studentIDInputLabel": "ID учня",
+    "studentPassInputLabel": "Пароль учня"
+  },
+  "customSelect": {
+    "nothingFound": "Нічого не знайдено"
+  }
+}
