@@ -1,0 +1,102 @@
+{
+  "specialities": {
+    "us": [
+      {
+        "name": "Software Engineering",
+        "grades": [
+          {
+            "gradeNumber": 1,
+            "lessons": [
+              { "queue": 1, "title": "Variables and data types" }
+            ]
+          },
+          {
+            "gradeNumber": 2,
+            "lessons": [
+              { "queue": 1, "title": "Data structure algorithms" },
+              { "queue": 2, "title": "Data structure algorithms 2" },
+              { "queue": 3, "title": "Data structure algorithms 3" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Math",
+        "grades": [
+          {
+            "gradeNumber": 1,
+            "lessons": [
+              { "queue": 1, "title": "Basic Arithmetic Operations" },
+              { "queue": 2, "title": "Introduction to Geometry" },
+              { "queue": 3, "title": "Fractions and Decimals" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Physic",
+        "grades": [
+          {
+            "gradeNumber": 1,
+            "lessons": [
+              { "queue": 1, "title": "Introduction to Force" },
+              { "queue": 2, "title": "Gravity Basics" },
+              { "queue": 3, "title": "States of Matter" }
+            ]
+          }
+        ]
+      }
+    ],
+    "ua": [
+      {
+        "name": "Програмна інженерія",
+        "grades": [
+          {
+            "gradeNumber": 1,
+            "lessons": [
+              { "queue": 1, "title": "Змінні та типи даних" }
+            ]
+          },
+          {
+            "gradeNumber": 2,
+            "lessons": [
+              { "queue": 1, "title": "Алгоритми структур даних" },
+              { "queue": 2, "title": "Алгоритми структур даних 2" },
+              { "queue": 3, "title": "Алгоритми структур даних 3" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Математика",
+        "grades": [
+          {
+            "gradeNumber": 1,
+            "lessons": [
+              { "queue": 1, "title": "Основні арифметичні дії" },
+              { "queue": 2, "title": "Вступ до геометрії" },
+              { "queue": 3, "title": "Дроби та десяткові дроби" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Фізика",
+        "grades": [
+          {
+            "gradeNumber": 1,
+            "lessons": [
+              { "queue": 1, "title": "Вступ до сили" },
+              { "queue": 2, "title": "Основи гравітації" },
+              { "queue": 3, "title": "Стани речовини" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lessonTypes": {
+    "us": ["Lection", "Practical", "Laboratory"],
+    "ua": ["Лекція", "Практична", "Лабораторна"]
+  }
+}
